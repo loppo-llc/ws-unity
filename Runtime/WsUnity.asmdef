@@ -1,0 +1,27 @@
+{
+    "name": "WsUnity",
+    "references": [
+        "Unity.Mathematics",
+        "Unity.Collections",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "WebGL"
+    ],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "System.Buffers.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.unitask",
+            "expression": "2.0.0",
+            "define": "ENABLE_UNITASK"
+        }
+    ],
+    "noEngineReferences": false
+}
